@@ -43,7 +43,7 @@ SetWorkingDir %A_ScriptDir%
 ::kek::*giggles*
 ::^^::*giggles*
 ::hihi::*giggles softly*
-::lmao::omg{!} *giggles*
+::lmao::omg *giggles*
 ::okay::okie
 ::ok::okie
 ::oki::okie
@@ -51,7 +51,7 @@ SetWorkingDir %A_ScriptDir%
 ::tasty::yummie
 ;::it is::it's
 ::kind of::kinda
-:a lil': bit::{BS 6}kinda
+::a lil' bit::kinda
 ::best::bestest
 ::better::bettah
 ::god::gawd
@@ -61,8 +61,8 @@ SetWorkingDir %A_ScriptDir%
 ::girls::girlz
 ::dumb::dum
 ::confused::ditzy
-; ::for::4
-; ::too::2
+::for::4
+::too::2
 ::very::so
 ::so::like so
 ::awesome::bitchin'
@@ -83,21 +83,21 @@ return
 ;------------------------------------------------------------------------------
 #Hotstring B Z EndChars -()[]{}:;"/\,.?!`n `t ; removes "'" just for this hotstring + reset automatic replacement (to avoid stuff like "bambi would likes")
 :bambi: am:: is
-::i'm::bambi is
+::i'm::Bambi is
 ::im::Bambi is
-:bambi: have:: has
-::i've::bambi has
-::ive::bambi has
-:bambi: haven't:: hasn't
-:bambi: do:: does
-:bambi: don't:: doesn't
-::i'll::bambi will
-::i'd::bambi would
-:*:that ::um like that` `
+::i have::Bambi has
+::i've::Bambi has
+::ive::Bambi has
+::i haven't::Bambi hasn't
+::i do::Bambi does
+::i don't::Bambi doesn't
+::i'll::Bambi will
+::i'd::Bambi would
+::that ::um like that` `
 ::that's::datz
 ::thats::datz
 ::thatz::datz
-:*:this ::dis` `
+::this ::dis
 ::you::u
 ::you're::u're
 ::thanks::thankies
@@ -108,11 +108,11 @@ return
 ;------------------------------------------------------------------------------
 #Hotstring B Z
 ; Replaces some specifics verbs
-:?:ing::in' ; Replace every ing verbs by in' (like fucking => fuckin')
-:bambi: laugh:: giggles
-:bambi: laughs:: giggles
-:bambi: think:: believes ; Bambi doesn't think
-:bambi: thinks:: believes
+::ing::in' ; Replace every ing verbs by in' (like fucking => fuckin')
+::laugh:: giggles
+::laughs:: giggles
+::think:: believes ; Bambi doesn't think
+::thinks:: believes
 return
 
 ;------------------------------------------------------------------------------
